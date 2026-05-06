@@ -156,11 +156,11 @@ if [[ "${config_paths_hiding__data_local_tmp}" == "1" ]]; then
 	done
 fi
 
-# /sdcard/Android/[data|media|obb]
+# /sdcard/Android/[data | media | obb]
 if [[ "${config_paths_hiding__sdcard_android_data_media_obb}" == "1" ]]; then
 	{
 		echo ""
-		echo "/sdcard/Android/[data|media|obb]"
+		echo "/sdcard/Android/[data | media | obb]"
 	} >> "${PERSISTENT_DIR}/logs.txt"
 
 	path1=/sdcard/Android/data
